@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "somnius.serpantinum-bluetooth",
+  "name": "Serpantinum Bluetooth",
+  "version": "0.1.0",
+  "author": "Somnius",
+  "description": "An animated, native Bluetooth panel for the Omarchy bar",
+  "license": "MIT",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "Bluetooth.qml"
+  },
+  "barWidget": {
+    "displayName": "Serpantinum Bluetooth",
+    "description": "Bluetooth status, discovery, and device controls",
+    "category": "Network",
+    "allowMultiple": false
+  }
+}
